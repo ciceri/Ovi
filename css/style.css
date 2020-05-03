@@ -1,0 +1,153 @@
+/*comentario*/
+
+*{ 
+    padding: 0;
+    margin: 0; 
+}
+
+/*etiquetas*/
+
+header{
+    background-color: #f4f4f4;
+    width: 100%;
+    height: 100px;
+    padding-top: 5px;
+}
+header, h1{
+    font-family: Arial, Helvetica, sans-serif, cursive;
+    font-size: 30px;
+    padding: 16px;
+    text-align: center;
+}
+header, img{
+    height: 80px; /*tamaño imagen*/
+    float: left;
+   
+}
+body{
+    background-color: white;    
+}
+nav{
+    background-color:  #005883;
+    width: 100%;
+    text-align: center;
+}
+nav, ul{
+    text-align: center;
+}
+nav ul a{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 10px;
+}
+/* Menu*/
+
+.menu li{
+    display:inline-block;
+}
+li a, boton{
+    display: inline-block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 0.8em;
+}
+.listaDesplegable{
+    width: 38%;
+    display: none;
+    background-color: ghostwhite;
+    position: absolute;
+
+}
+.listaDesplegable a{
+    text-align: justify;
+    color: white;
+    display: block;
+    text-align: left;
+}
+.boton:hover .listaDesplegable{
+    display: block;
+    background: #005883;
+}
+a:hover{
+    background-color: #0271a8;
+    max-width: 75%;
+    color: white;
+}
+
+/*-- contenedor --*/
+
+#main{
+    width: 960px;
+}
+#contenedor{
+
+    background-color: rgb(255, 255, 255);
+    width: 625px;
+    max-height: max-content;
+    margin:10px;
+    box-shadow: 1px 1px 5px #000;
+    border-radius: 0.4em;
+    float: left;
+    
+}
+aside{
+    display: inline-block;
+    width: 300px;
+    min-height: 400px;   
+    background-color: #ffffff;
+    border-radius: 0.4em;
+    float:right;   
+   
+    
+}
+article{
+    width: 75%;
+    text-align: center;
+}
+article p{
+    color:black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+footer{
+    background-color:  #005883;
+    width: 100%;
+    height: 40px;
+    bottom: 0;
+    position: fixed;
+    text-align: center;
+    color: white;
+}
+footer a{
+    width: 100px;
+    height: 30px; /*tamaño imagen*/
+    margin-left: auto;
+    margin-right: auto;
+}
+h6{
+    color:white;
+}
+h1{
+    
+    text-align: center;
+}
+h2{
+    font-family: Arial, Helvetica, sans-serif, cursive;
+    margin: 10px;
+}
+p{
+    text-align: justify;
+    width: 500px;
+    color:black;
+ 
+}
+h3{
+    text-align: left;
+    
+}
+h5{
+    color: white;
+}
